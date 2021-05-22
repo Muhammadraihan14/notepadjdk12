@@ -13,10 +13,19 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
     <!-- bosstrap -->
 
+    <!-- google fonts -->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+    <!-- google fonts -->
+
+
      <!-- css -->
      <style type="text/css">
+
+
       #pembuka{
         background :none;
+       
       }
       #baground{
  background: url(gambar/Gedung.jpg) no-repeat;
@@ -30,6 +39,17 @@
         background:url(gambar/Landak.png) no-repeat;
         background-size: cover;
       }
+
+
+      #navbarNav a:hover {
+color: blue;
+      }
+
+      #navbarNav a{
+         font-family: 'Ubuntu', sans-serif;
+      }
+
+      
     </style>
     <!-- css -->
 
@@ -84,7 +104,7 @@
      <h1 class="h1" data-aos="fade-down" data-aos-duration="1500" data-aos-easing="linear" >PENERIMAAN PESERTA DIDIK BARU</h1> 
      <h2 class="h2" data-aos="fade-right" data-aos-duration="1500" data-aos-easing="linear" >SMAN 01 MEMPAWAH HULU 2021/2022</h2>
      <h3 class="h3" data-aos="fade-left" data-aos-duration="1500" data-aos-easing="linear" >Registrasi Online melalui</h2>
-     <a href="login.php"><button type="button" class="btn btn-primary m-3"  data-aos="zoom-in" data-aos-duration="2000" data-aos-easing="linear">Portal SMANSAKA</button></a>
+     <a href="Portal_smansaka.php" target="_blank"><button type="button" class="btn btn-primary m-3"  data-aos="zoom-in" data-aos-duration="2000" data-aos-easing="linear">Portal SMANSAKA</button></a>
   </div>
   </div>
   </section>
