@@ -26,19 +26,18 @@
     padding: 10px;
     border:1px solid #ccc;
     border-radius: 10px;
-    background-color:#E8E8E8;
-
 }
-    	body {
-    		 background-color:#E8E8E8;
-    	}
+.container {
+    margin-top: -150px;
+}
+    	
     </style>
 	<title>Portal Smansaka</title>
 </head>
 <body>
  <div class="container">
  	<!-- navbar -->
- 	<nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top shadow-lg">
+ 	<!-- <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top shadow-lg">
   <div class="container-fluid">
     <div class="navbar-brand">
     <a href="#"> <img src="gambar/facebook.png" width="30"></a>
@@ -60,7 +59,7 @@
     </div>
   </div>
 </nav>
- </div>
+ </div> -->
 
  	<!-- navbar -->
 
@@ -70,22 +69,21 @@
  
 
  		<div class="container">
- 			 <div class="box-portal shadow-lg " 
-			data-aos="fade-up"
-     		data-aos-anchor-placement="bottom-center">	
+ 			 <div class="box-portal shadow-lg ">
+
  			<div class="justify-content-center">
  				<div class="card-body">
- 					<div class="card-title"><h1 class="h1 text-center">Portal Smansaka PPDB Online</h1></div>
- 
+ 					
+ 						 <img src="gambar/portal.svg" class="img-fluid" alt="image">
 
  					<hr>
  					<div class="row">
- 						<div class="col-6 offset-3" >
+ 						<div class="col-6 offset-4" >
  							<a href="login.php" target="_blank"><button type="button" class="btn btn-outline-primary btn-lg p-2" >
 							<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
   							<path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
 							</svg>
-							 Mahasiswa
+							 Siswa
 							</button></a>
 
 							<a href="login_admin.php" target="_blank"><button type="button" class="btn btn-outline-secondary btn-lg p-2" >
@@ -108,9 +106,13 @@
 
 
 
-	<!-- footer -->
-  <!-- <section id="Contact">
-  <div class="container-fluid bg-primary mt-5">
+	
+ <footer>
+
+    <!-- footer -->
+  <section id="Contact">
+
+  <div class="container-fluid mt-5">
     <div class="container">
       
       <div class="row align-items-center">
@@ -140,8 +142,10 @@
       </div>
     </div>
   </div>
-  </section> -->
-	<!-- end footer -->
+  </section>
+    <!-- end footer -->
+    
+</footer>
 
 
 
